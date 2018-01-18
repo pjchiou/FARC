@@ -3,4 +3,4 @@
 > This program should be put in the **same path with apfhome**.   
   It can find the target component in rules which are defined in station.cfg and replace target component with a new component.   
 
-> **Restriction : The order and quantity of parameter/return value should be the same.**
+> **Restriction : The order and quantity of parameter/return value in new component should be the same with the original one.**
