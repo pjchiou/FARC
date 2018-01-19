@@ -23,14 +23,17 @@ In this paragraph, I will explain how to call these functions in our program. Al
 
         syntax: FARC -CopyAllRule    
     This function help us to backup all currently in use reports which are listed in station.cfg. All the reports would be copied to the Input folder.
+
 - Switch component to new one
 
         Syntax: FARC -Change [old macro] [new macro]    
     It equals to alter all the [old macro] string to [new macro] string in report file. The altered file would be save as a new file with same name in output folder.
+
 - Compile all rule
 
         syntax: FARC -Compile
     This function will call the report compiler, quintc, which is provided by APF. Recompile all reports in output folder and save. This makes each report a executable report.
+
 - Deploy
 
         Syntax: FARC -Deploy
