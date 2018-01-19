@@ -20,15 +20,19 @@ For safety and convenience reasons, we add some functions and breakdown some fun
 ## How to use
 In this paragraph, I will explain how to call these functions in our program. All you have to prepare is only **cmd**.(command line)
 - Copy all currently in use rules
+
         syntax: FARC -CopyAllRule    
     This function help us to backup all currently in use reports which are listed in station.cfg. All the reports would be copied to the Input folder.
 - Switch component to new one
+
         Syntax: FARC -Change [old macro] [new macro]    
     It equals to alter all the [old macro] string to [new macro] string in report file. The altered file would be save as a new file with same name in output folder.
 - Compile all rule
+
         syntax: FARC -Compile
     This function will call the report compiler, quintc, which is provided by APF. Recompile all reports in output folder and save. This makes each report a executable report.
 - Deploy
+
         Syntax: FARC -Deploy
     This command can deploy all compiled report to all production server. And the server list is a configure file which is defined in ServerList.txt
 - - -
@@ -37,5 +41,7 @@ In this paragraph, I will explain how to call these functions in our program. Al
 - The path of $APFHOME should be at **C:\apfhome\\**, or this program can not find the station.cfg and the rules listed in it.
 - Remember to copy the new macro to all production server before you -Deploy all compiled report to all server.
 - Do not use -Deploy command before -Compile, or you will upload unexecutable reports to all production server.
+---
+
 ## About Author
 Po-Jyun Chiou, from Taiwan, have 2.5 years experience in United Microelectronics Corporation(UMC, a semiconductor manufacturing company). Developing RTD rules and optimization algorithm.
