@@ -1,5 +1,5 @@
 
-#    FARC(**F**ind **A**nd **R**eplace **C**omponent)   
+# FARC(**F**ind **A**nd **R**eplace **C**omponent)   
 >This is a simple program used to updating macro in *.report files which created by APF Formatter.(product of Applied Materials)    
 - - -
 
