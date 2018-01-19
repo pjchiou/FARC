@@ -3,8 +3,8 @@
 >This is a simple program used to updating macro in *.report files which created by APF Formatter.(product of Applied Materials)    
 - - -
 
-## IntoductionIf     
-you update a macro(Let's call it macro_v0.0) which is used in several other reports, you have to save this new macro as a new file(macro_v1.0). And then open each reports which use macro_v0.0 and switch to new macro_v1.0, and then save this report. This procedure will call compiler implicitly to re-compile your report so that it can call new macro correctly. This whole procedure may cost 2~3 minutes for each report, depends on your device. Normally, we will have more than 50 files need to be updated. **Now you can do this more quickly through FARC.**
+## Intoduction
+If you update a macro(Let's call it macro_v0.0) which is used in several other reports, you have to save this new macro as a new file(macro_v1.0). And then open each reports which use macro_v0.0 and switch to new macro_v1.0, and then save this report. This procedure will call compiler implicitly to re-compile your report so that it can call new macro correctly. This whole procedure may cost 2~3 minutes for each report, depends on your device. Normally, we will have more than 50 files need to be updated. **Now you can do this more quickly through FARC.**
 - - -
 
 ## Method
