@@ -53,4 +53,4 @@ In this paragraph, I will explain how to call these functions in our program. Al
 ---
 
 ## About Author
-Po-Jyun Chiou, from Taiwan, have 2.5 years experience in United Microelectronics Corporation(UMC, a semiconductor manufacturing company). Developing RTD rules and optimization algorithm.
+Po-Jyun Chiou, from Taiwan, a engineer in United Microelectronics Corporation(UMC, a semiconductor manufacturing company) since 2015/04. Developing RTD rules and optimization algorithm.
