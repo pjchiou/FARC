@@ -19,14 +19,14 @@ For safety and convenience reasons, we add some functions and breakdown some fun
 
 ## How to use
 In this paragraph, I will explain how to call these functions in our program. All you have to prepare is only **cmd**.(command line)
-- Copy all currently in use rules
+- Copy all currently in use rules.
 
-        syntax: FARC -CopyAllRule    
+        syntax: FARC -CopyAllRule    
     This function help us to backup all currently in use reports which are listed in station.cfg. All the reports would be copied to the Input folder.
 
 - Switch component to new one
 
-        Syntax: FARC -Change [old macro] [new macro]    
+        Syntax: FARC -Change [old macro] [new macro]    
     It equals to alter all the [old macro] string to [new macro] string in report file. The altered file would be save as a new file with same name in output folder.
 
 - Compile all rule
@@ -36,7 +36,7 @@ In this paragraph, I will explain how to call these functions in our program. Al
 
 - Deploy
 
-        Syntax: FARC -Deploy
+        Syntax: FARC -Deploy
     This command can deploy all compiled report to all production server. And the server list is a configure file which is defined in ServerList.txt
 - - -
 
